@@ -19,6 +19,9 @@ target/
 *.iml
 *.ipr
 
+### 证书 ###
+.pfx
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
