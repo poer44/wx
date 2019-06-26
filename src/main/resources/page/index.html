@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>springboot-thymeleaf demo</title>
+    <script src="https://cdn.bootcss.com/vue/2.5.16/vue.min.js"></script>
+    <!-- import stylesheet -->
+    <link href="https://cdn.bootcss.com/iview/2.14.0/styles/iview.css" rel="stylesheet">
+    <!-- import iView -->
+    <script src="https://cdn.bootcss.com/iview/2.14.0/iview.min.js"></script>
+</head>
+
+<body>
+<p th:text="'hello, ' + ${name} + '!'"/>
+<div id="app">
+<!--    <i-menu :theme="theme3" active-name="1" style="height:100%">-->
+<!--        <submenu name="1">-->
+<!--            <div slot="title">-->
+<!--                内容管理-->
+<!--            </div>-->
+<!--            <menu-item name="1-1">文章管理</menu-item>-->
+<!--            <menu-item name="1-2">评论管理</menu-item>-->
+<!--            <menu-item name="1-3">举报管理</menu-item>-->
+<!--        </submenu>-->
+<!--    </i-menu>-->
+</div>
+<script>
+    // new Vue({
+    //     el: '#app',
+    //     data: {
+    //         theme3: 'dark'
+    //     },
+    //     methods: {
+    //         show: function () {
+    //             this.visible = true;
+    //         }
+    //     }
+    // })
+</script>
+
+</body>
+</html>
